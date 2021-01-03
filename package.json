@@ -5,6 +5,9 @@
   "hexo": {
     "version": "5.2.0"
   },
+  "scripts": {
+    "fetch": "yarn && cd themes/sagiri && yarn"
+  },
   "dependencies": {
     "hexo": "^5.2.0",
     "hexo-all-minifier": "0.5.5",
