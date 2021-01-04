@@ -342,7 +342,7 @@ han: false
 disqus:
   enable: false
   shortname: starchaser-me
-  count: false
+  count: true
   api: https://starchaser-me.disqus.com/
   apikey: 
   admin: _StarChaser

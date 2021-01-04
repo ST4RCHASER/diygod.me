@@ -26,7 +26,7 @@ self.addEventListener('activate', (event) => {
 
 
 core.setCacheNameDetails({
-    prefix: 'hidiygod',
+    prefix: 'starchaser-me',
     suffix: cacheSuffixVersion
 });
 
@@ -105,7 +105,7 @@ routing.registerRoute(
 );
 
 routing.registerRoute(
-    new RegExp('https://leancloud\.diygod\.me'),
+    new RegExp('https://app-router\.leancloud\.cn'),
     new NetworkFirst({
         cacheName: 'api' + cacheSuffixVersion,
         fetchOptions: {

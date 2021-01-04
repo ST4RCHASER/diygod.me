@@ -49,3 +49,9 @@ $(document).on('pjax:end', function () {
 
     $('.site-overview, .post-toc').css('max-height', document.body.clientHeight - 164);
 });
+
+$(document).on('pjax:success', function () {
+  if(FB){
+    FB.XFBML.parse(document);
+  }
+});
