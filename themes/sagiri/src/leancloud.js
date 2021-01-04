@@ -106,7 +106,7 @@ function leancloud () {
       query.find().then((results) => {
         let tpl = '';
         results.forEach((item) => {
-          tpl += `<li><a href="${item.attributes.url}"><span class="views-top-title">${item.attributes.title}</span><span class="views-top-time">${item.attributes.time}次看爆</span></a></li>`;
+          tpl += `<li><a href="${item.attributes.url}"><span class="views-top-title">${item.attributes.title}</span><span class="views-top-time">${item.attributes.time} read</span></a></li>`;
         })
         $('.views-top').html(tpl);
       }, function (error) { }

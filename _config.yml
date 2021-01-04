@@ -99,3 +99,8 @@ js_minifier:
 
 image_minifier:
   enable: false
+leancloud_counter:
+  enable: true
+  app_id: llqeD7RzWszmoFjmTSta8VAv-MdYXbMMI
+  app_key: RUTSmW1e7L4AqrPnOYQKhkUv
+  master_key: Kt0G7l9f5BaUlkjEJloYuIwX
