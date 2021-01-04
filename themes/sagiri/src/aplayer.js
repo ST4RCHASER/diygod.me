@@ -2,7 +2,7 @@ if (!NexT.utils.isMobile()) {
   const apFixed = new APlayer({
     element: document.getElementById('aplayer-fixed'),
     mutex: true,
-    theme: '#97dffd',
+    theme: '#b19cd9',
     order: 'random',
     lrcType: 3,
     fixed: true,

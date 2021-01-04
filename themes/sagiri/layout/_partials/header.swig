@@ -10,7 +10,7 @@
             {% if theme.menu_icons.enable %}
               <i class="menu-item-icon {{ trim(path.split('||')[1]) }}"></i> <br />
             {% endif %}
-            {{ __('menu.' + name) | replace('menu.', '') }}
+            {{ __('menu.' + name) | replace('menu.', '') | capitalize }}
           </a>
           {% if theme.submenu[itemName] %}
             <ul class="submenu submenu-{{ itemName | replace(' ', '-') }}">
@@ -43,11 +43,11 @@
       {% endif %}
       <li class="menu-item search">
           <form class="search-form">
-            <input name="keyword" type="text" class="search-input" placeholder="站内搜索">
+            <input name="keyword" type="text" class="search-input" placeholder="Search here!">
             <button type="submit" class="search-submit"><i class="fas fa-search"></i></button>
           </form>
       </li>
-      <li class="menu-item online"><span id="online-count">?</span>人在线</li>
+      <li class="menu-item online"><span id="online-count">?</span> Reading</li>
     </ul>
   {% endif %}
 
@@ -61,10 +61,10 @@
 <div class="site-brand-wrapper">
   <div class="site-brand-bg">
     <picture>
-      <source srcset="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/header-gyx-s.webp" type="image/webp" media="(max-width: 500px)">
-      <source srcset="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/header-gyx-s.png" type="image/png" media="(max-width: 500px)">
-      <source srcset="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/header-gyx.webp" type="image/webp">
-      <img loading="lazy" src="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/header-gyx.png">
+      <source srcset="/images/77248783_p0.jpg" type="image/webp" media="(max-width: 500px)">
+      <source srcset="/images/77248783_p0.jpg" type="image/png" media="(max-width: 500px)">
+      <source srcset="/images/77248783_p0.jpg" type="image/webp">
+      <img loading="lazy" src="/images/77248783_p0.jpg">
     </picture>
   </div>
   <div class="site-meta {% if theme.custom_logo.enabled %}custom-logo{% endif %}">

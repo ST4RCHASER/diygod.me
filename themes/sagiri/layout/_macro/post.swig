@@ -15,7 +15,7 @@
   {### POST BLOCK ###}
   {##################}
   <div class="post-date">
-			<div class="post-month">{{ date(post.date, 'MM') }}月</div>
+			<div class="post-month">-{{ date(post.date, 'MM') }}-</div>
 			<div class="post-day">{{ date(post.date, 'DD') }}</div>
 	</div>
   {% if post.categories and post.categories.length and theme.post_meta.categories %}
@@ -218,10 +218,10 @@
                  <i class="far fa-eye"></i>
                </span>
                {% if theme.post_meta.item_text %}
-                 <span class="post-meta-item-text">被</span>
+                 <span class="post-meta-item-text"></span>
                {% endif %}
                  <span class="leancloud-visitors-count"></span>
-                 <span class="post-meta-item-text">人看爆</span>
+                 <span class="post-meta-item-text">read</span>
              </span>
           {% endif %}
 
@@ -322,9 +322,6 @@
       </div>
     {% endif %}
 
-    {% if not is_index %}
-      <div class="post-share">分享到：</div>
-    {% endif %}
 
     {% if (theme.alipay or theme.wechatpay or theme.bitcoin) and not is_index %}
       <div>

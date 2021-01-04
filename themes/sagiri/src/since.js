@@ -13,6 +13,6 @@ function show_date_time () {
   var e_minsold = (e_hrsold - hrsold) * 60;
   var minsold = Math.floor((e_hrsold - hrsold) * 60);
   var seconds = Math.floor((e_minsold - minsold) * 60);
-  $('#since').html(daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒");
+  $('#since').html(daysold + " days " + hrsold + " hours " + minsold + " minutes " + seconds + " seconds");
 }
 show_date_time();

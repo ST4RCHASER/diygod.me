@@ -83,7 +83,7 @@
           </div>
 
           <details class="views-top-wrap">
-            <summary class="views-top-name scaleup">看爆 Top5</summary>
+            <summary class="views-top-name scaleup">Top views blog</summary>
             <ul class="views-top"></ul>
           </details>
 

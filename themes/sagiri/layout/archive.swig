@@ -13,10 +13,10 @@
   {#####################}
   <div class="post-block archive post">
     <div id="posts" class="posts-collapse">
-      <h1 class="post-collapse-title" itemprop="name headline">归档</h1>
+      <h1 class="post-collapse-title" itemprop="name headline">Archives</h1>
       <div class="category-all-page">
         <div class="category-all-title">
-            分类
+            Category
         </div>
         <div class="category-all">
           {{ list_categories() }}

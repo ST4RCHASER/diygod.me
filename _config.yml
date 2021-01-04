@@ -3,15 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hi, DIYgod
+title: starchaser.me
 subtitle:
-description: 人气网红 | 前端萌新 | 有猫 | 开源
-author: DIYgod
-language: zh-Hans
+description: Human | Dog | Someone
+author: _StarChaser
+language: en
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://diygod.me
+url: https://starchaser.me
 root: /
 permalink: :title/
 permalink_defaults:
@@ -85,7 +85,7 @@ theme: sagiri
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:DIYgod/diygod.me.git
+  repo: git@github.com:ST4RCHASER/starchaser-blog.git
   branch: master
 
 search:
