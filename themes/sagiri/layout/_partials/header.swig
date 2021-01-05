@@ -61,10 +61,10 @@
 <div class="site-brand-wrapper">
   <div class="site-brand-bg">
     <picture>
-      <source srcset="/images/77248783_p0.jpg" type="image/webp" media="(max-width: 500px)">
-      <source srcset="/images/77248783_p0.jpg" type="image/png" media="(max-width: 500px)">
-      <source srcset="/images/77248783_p0.jpg" type="image/webp">
-      <img loading="lazy" src="/images/77248783_p0.jpg">
+      <source srcset="/images/header_bg.webp" type="image/webp" media="(max-width: 500px)">
+      <source srcset="/images/header_bg.png" type="image/png" media="(max-width: 500px)">
+      <source srcset="/images/header_bg.webp" type="image/webp">
+      <img loading="lazy" alt="starchaser.me" src="/images/header_bg.webp">
     </picture>
   </div>
   <div class="site-meta {% if theme.custom_logo.enabled %}custom-logo{% endif %}">

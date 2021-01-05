@@ -41,7 +41,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-image">
-        <img src="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/footer.png">
+        <img alt="starchaser.me" src="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/footer.png">
       </div>
       <div class="footer-inner">
         {% include '_partials/footer.swig' %}
@@ -52,7 +52,7 @@
 
     {% if not theme.sidebar.b2t %}
       <div class="back-to-top">
-        <img src="https://i.imgur.com/WgfHMVr_d.webp">
+        <img alt="Click to scroll to top" src="https://i.imgur.com/WgfHMVr_d.webp">
         {% if theme.sidebar.scrollpercent %}
           <span id="scrollpercent"><span>0</span>%</span>
         {% endif %}
