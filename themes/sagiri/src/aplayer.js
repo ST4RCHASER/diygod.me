@@ -7,7 +7,7 @@ if (!NexT.utils.isMobile()) {
     theme: '#b19cd9',
 });
   $.ajax({
-    url: 'https://storage.starchaser.workers.dev/0:/songs/playlist.json',
+    url: 'https://storage.starchaser.me/0:/songs/playlist.json',
     success: function (list) {
       apFixed.list.add(list);
     }
