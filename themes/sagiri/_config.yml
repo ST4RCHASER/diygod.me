@@ -73,7 +73,7 @@ menu:
   message: /message/ || fas fa-comment-dots
   # 手办柜: /gk/ || fas fa-child
   about: /about/ || fas fa-heartbeat
-  storage: https://storage.starchaser.me || fas fa-boxes
+  storage: https://storage.yue.sh || fas fa-boxes
 
 submenu:
   my works:
