@@ -6,7 +6,8 @@
     "version": "5.2.0"
   },
   "scripts": {
-    "fetch": "yarn && cd themes/sagiri && yarn"
+    "fetch": "yarn && cd themes/sagiri && yarn",
+    "server": "hexo server"
   },
   "dependencies": {
     "hexo": "^5.2.0",
